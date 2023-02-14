@@ -135,6 +135,40 @@ pre {
   white-space: pre-wrap;
 }
 
+.button, .button-secondary {
+  text-decoration: none;
+  border: 2px solid #fb763d;
+  color: #fb763d;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 1em 0em;
+  padding: 1em 1.5em;
+  font-size: 0.85rem;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+}
+.button:hover, .button-secondary:hover {
+  background-color: #fb763d;
+  color: #ffffff;
+}
+
+.button-secondary {
+  background-color: #fb763d;
+  color: #ffffff;
+}
+.button-secondary:hover {
+  background-color: #ffffff;
+  color: #fb763d;
+}
+
+.header {
+  display: flex;
+  background-color: #a2abb0;
+  height: 3em;
+}
+
 .nav {
   margin-right: auto;
 }
@@ -156,12 +190,6 @@ pre {
 }
 .nav .menu-item-link:hover {
   background-color: #b0b7bc;
-}
-
-.header {
-  display: flex;
-  background-color: #a2abb0;
-  height: 6em;
 }
 
 /*# sourceMappingURL=style.css.map */
