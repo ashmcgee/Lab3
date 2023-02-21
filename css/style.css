@@ -92,7 +92,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat", sans-serif;
-  color: #fb763d;
+  color: #ffffff;
 }
 
 h1, h2, h3 {
@@ -173,7 +173,7 @@ pre {
 }
 
 body {
-  background-color: #fedff8;
+  background-color: #f2e5ef;
 }
 
 .nav {
@@ -197,6 +197,11 @@ body {
 }
 .nav .menu-item-link:hover {
   background-color: #9c7fff;
+}
+
+.images {
+  height: 5vh;
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
