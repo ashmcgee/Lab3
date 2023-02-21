@@ -11,6 +11,7 @@
      text-transform: uppercase;
      line-height: 1;
      font-family: $font__heading;
+     
      &:hover {
           background-color: $color__orange;
           color: $color__white;
@@ -24,5 +25,8 @@
      &:hover {
           background-color: $color__white;
           color: $color__orange;
+     }
+     &:visited {
+          color: $color__block;
      }
 }

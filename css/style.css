@@ -162,11 +162,18 @@ pre {
   background-color: #ffffff;
   color: #fb763d;
 }
+.button-secondary:visited {
+  color: #000000;
+}
 
 .header {
   display: flex;
-  background-color: #a2abb0;
+  background-color: #8865FF;
   height: 5em;
+}
+
+body {
+  background-color: #fedff8;
 }
 
 .nav {
@@ -189,7 +196,7 @@ pre {
   font-family: "Montserrat", sans-serif;
 }
 .nav .menu-item-link:hover {
-  background-color: #b0b7bc;
+  background-color: #9c7fff;
 }
 
 /*# sourceMappingURL=style.css.map */

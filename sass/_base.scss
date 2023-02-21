@@ -1,5 +1,9 @@
 .header {
      display: flex;
-     background-color: $color__grey;
+     background-color: $color__purple;
      height: 5em;
+}
+
+body {
+     background-color: $color__background;
 }
