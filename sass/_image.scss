@@ -1,4 +1,16 @@
 .images {
-     height: 5vh;
      display: flex;
+     font-family: $font__heading;
+     justify-content: center;
+     text-align: center;
+     p {
+          @extend .para;
+          color: $color__darkpurp;
+          font-weight: normal;
+     }
+     img {
+          height: 50vh;
+          padding: 5vh;
+     }
 }
+

@@ -87,7 +87,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Trebuchet MS", sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -135,37 +135,6 @@ pre {
   white-space: pre-wrap;
 }
 
-.button, .button-secondary {
-  text-decoration: none;
-  border: 2px solid #fb763d;
-  color: #fb763d;
-  border-radius: 3px;
-  display: inline-block;
-  margin: 1em 0em;
-  padding: 1em 1.5em;
-  font-size: 0.85rem;
-  background-color: #ffffff;
-  text-transform: uppercase;
-  line-height: 1;
-  font-family: "Montserrat", sans-serif;
-}
-.button:hover, .button-secondary:hover {
-  background-color: #fb763d;
-  color: #ffffff;
-}
-
-.button-secondary {
-  background-color: #fb763d;
-  color: #ffffff;
-}
-.button-secondary:hover {
-  background-color: #ffffff;
-  color: #fb763d;
-}
-.button-secondary:visited {
-  color: #000000;
-}
-
 .header {
   display: flex;
   background-color: #8865FF;
@@ -176,32 +145,29 @@ body {
   background-color: #f2e5ef;
 }
 
-.nav {
-  margin-right: auto;
+h1 {
+  margin: 2vh;
+  font-weight: bold;
 }
-.nav .menu {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-}
-.nav .menu-item {
-  margin-right: 0.5rem;
-}
-.nav .menu-item-link {
-  color: #08388c;
-  text-decoration: none;
-  padding: 0.5em 1em;
-  display: block;
-  font-family: "Montserrat", sans-serif;
-}
-.nav .menu-item-link:hover {
-  background-color: #9c7fff;
+
+.para, .images p {
+  font-size: 1.25rem;
+  font-weight: bold;
 }
 
 .images {
-  height: 5vh;
   display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+.images p {
+  color: #3b2680;
+  font-weight: normal;
+}
+.images img {
+  height: 50vh;
+  padding: 5vh;
 }
 
 /*# sourceMappingURL=style.css.map */
